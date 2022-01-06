@@ -1,0 +1,189 @@
+/* reset code and common code starts here  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    /* width: 120rem; */
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* margin:0 auto; */
+    /* box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4; */
+}
+h1{
+    font-size: 4rem;
+    padding: 5px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    border-left: 4px solid salmon;
+}
+#first-section{
+    display: flex;
+    margin:0 auto;
+    width: 90%;
+}
+
+h1 span {
+    color: red;
+    margin-right: 5px;
+}
+.left-side{
+    width: 45%;
+    margin: 6rem  0;
+
+}
+.right-side{
+    width: 45%;
+    
+}
+.left-side h1{
+    font-size: 4rem;
+    border-left: 4px solid salmon;
+    text-transform: capitalize;
+}
+.right-side p{
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.photo img{
+    /* width: 100vh; */
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#second-section{
+    text-align: center;
+    margin-top: 30px;
+}
+#third-section{
+    display: flex;
+    margin: 10rem 0;
+}
+#forth-section{
+    display: flex;
+    margin: 10rem ;
+    padding: 2rem;
+    justify-content: space-around;
+}
+#fifth-section{
+    display: flex;
+    margin: 10rem ;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+.third-section-right{
+    margin: 20px 30px;
+}
+.third-section-right p{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 3px;
+    word-spacing: 2px;
+}
+.all-card{
+    display: flex;
+    margin: 20px ;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.first-card{
+    width: 350px;
+    border: 3px solid #333;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+.middle-img{
+    margin: 0 6rem 0 2rem;
+    position: relative;
+}
+.last-img{
+    position: absolute;
+    margin-left: 95rem  ;
+    margin-top: 28rem  ;
+    
+}
+.middle-card{
+    width: 350px;
+    border: 3px solid #fff;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    background-color:#cac54a ;
+}
+.last-card{
+    width: 350px;
+    border: 3px solid #999;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    background-color:burlywood ;
+}
+
+.img-card{
+    width: 100%;
+}
+.img-left{
+    float: left;
+    margin: 48px 0 0 10rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 5px;
+}
+p.text{
+    text-align: justify;
+    font-size: 1.4rem;
+    margin: 10px 0px;
+    padding: 4px;
+}
+.btn{
+    background-color: tomato;
+    padding:15px 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+    margin: 2rem 0;
+}
+.btn:hover{
+    background-color: #777;
+    color: white;
+}
+
+footer{
+    padding: 20px;
+    color: black;
+    width: 100%;
+    height: 120px;
+    background-color: #ddd;
+    text-align: center;
+    margin-top: 40px;
+}
+.anchor{
+    color: black;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: orange;
+    margin-bottom: 1rem;
+}
+.anchor:hover{
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+}
